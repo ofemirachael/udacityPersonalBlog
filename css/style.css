@@ -17,14 +17,14 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 80px 800px 100px;
     grid-gap: 20px;
-    grid-template-areas: "header header"
+    grid-template-areas: "hdr hdr"
         "main  main"
         "footer footer";
 }
 
 
 .header {
-    grid-area: header;
+    grid-area: hdr;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
